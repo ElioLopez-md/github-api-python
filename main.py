@@ -42,7 +42,5 @@ def main():
   for index in range(0,len(dump)):
     print(json.dumps(dump[index]['id']), " ", dump[index]['full_name'])
 
-
-
 if __name__ == "__main__":
     main()
